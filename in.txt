@@ -1,0 +1,82 @@
+
+import "lib"
+import "math"
+
+int h = 5
+
+craft[int] sum([int] x, [int] y) => (sum(x, y) - sub(x, y));
+
+craft[int] diff([int] x, [int] y, [int] u, [int] z) => (sum(x, y) + sub(u, z));
+
+craft[int] sum([int] x, [int] y) => (x + y);
+
+int o = 67
+
+craft[int] sub([int] x, [int] y) => (x - y);
+
+craft[int] main()
+{
+	int x = bx00000001
+	int z = x + 0x012
+
+	int factor = factorial(3);
+
+	int j = input() + 5;
+	int fib = fibonacci(15) - 10;
+
+	int f = z ~ 5
+
+	f = f << 3
+
+	str sa = 'Привет мир';
+	str sb = '1234567890';
+	int t = x
+
+	byte a = 25
+
+	int y = 5 + sub(a, a) + o
+
+	int k = diff(a, fib, factor, 1)
+
+	bool bol   = 0
+	int num    = true
+	bool other = 1
+	bool earth = 0
+	bool expr  = a >= 3
+
+	if(bol)
+	{
+		print(y);
+		print('три метра над уровнем неба');
+	}
+	else
+	{
+		print('радужный мост');
+	}
+
+	print(sa);
+	print(z);
+
+	if(num) => print(y);
+
+	print(k);
+
+	if(a > 100)
+	{
+		int w = 8 + o + a
+		print('dog');
+		print('cat');
+	}
+	elif(a == 100)
+	{
+		print('настроение хорни преследуем дракона');
+	}
+	else
+	{
+		print('пьяный акробат в трико!');
+	}
+
+	print('hello world');
+	print(k);
+	recall 0;
+}
